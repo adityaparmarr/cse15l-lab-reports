@@ -1,11 +1,15 @@
-# Heading 1
-# Heading 2
+# Heading 
+## Subheading
 
-[Link](https://www.youtube.com/watch?v=FWJuLR08P64)
+[Link to cute dog video on Youtube](https://www.youtube.com/watch?v=FWJuLR08P64)
+
 this is file 2.
+
 whoaaaa. **now way**
 __this is bold part 2__
+
 ![Image](https://tse4.mm.bing.net/th?id=OIP.TnnO-9C6THhBBCzOhTe7mQHaFj&pid=Api)
+
 * List item 1
 * List item 2
 * List item 3
