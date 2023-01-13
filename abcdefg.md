@@ -11,11 +11,12 @@ __this is bold part 2__
 * List item 3
 
 > 'System.out.println();' is a very useful command in Java, its usecase is shows below.
-'''
+
+```
 public class doNothing { 
   public static void main(String[] args) { 
     System.out.println("Nothing, done successfully");
   }
 }
-'''
+```
 ---
