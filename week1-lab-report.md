@@ -39,3 +39,5 @@ For example, some cool commands are:
 - pwd
 - ls -a
 ```
+A few commands are shown below.
+![Commands](commands.jpg)
