@@ -26,9 +26,9 @@
 2. Enter the command: `ssh cs15lwi23zz@ieng6.ucsd.edu`
 3. Follow the prompts (e.g. enter yes, and enter your password)
 4. If your password is incorrect, or does not meet security requirements, you will be prompted to enter the password again; you might have to reset your CSE 15L account's password using the link provided [here](https://sdacs.ucsd.edu/~icc/password.php). (NOTE - this does not mean you need to reset your Active Directory Password. If you want to change only your CSE 15L account password, select "No" under change my TritonLink password. Select "Yes" for change course specific password.)
-![Change these Fields As Required (explained above)](change-password.jpg)]
+![Change these Fields As Required (explained above)](change-password.jpg)
 5. Upon successful connection to the server, it will look like the image below.
-![Change these Fields As Required (explained above)](successful-connection.jpg)]
+![Change these Fields As Required (explained above)](successful-connection.jpg)
 
 ## Trying out some Bash Commands
 Now, we can run some commands to do some basic operations.
