@@ -22,7 +22,7 @@
 - In order to connect to the CSE Basement Servers, you need to open VSCode or any other terminal with bash (for example mac or linux terminal though you might or might not have to install some other software to get it working; your mileage may vary).
 - You also need to know your 3-letter code assigned to your UCSD account for CSE 15L. You can find this using this website [here](https://sdacs.ucsd.edu/~icc/index.php). Fill in your PID (which begins with an A followed by some numbers) and Username in the **Account Lookup Field**, and log in to your account. Once you do that, look under **Additional Accounts** and look at the last 3 characters of the account.
 ### Connecting to the Server
-1. Open the terminal (VSCode is preferred).
+1. Open the terminal by pressing (Ctrl or Cmd) + ` : (VSCode is preferred).
 2. Enter the command: `ssh cs15lwi23zz@ieng6.ucsd.edu`
 3. Follow the prompts (e.g. enter yes, and enter your password)
 4. If your password is incorrect, or does not meet security requirements, you will be prompted to enter the password again; you might have to reset your CSE 15L account's password using the link provided [here](https://sdacs.ucsd.edu/~icc/password.php). (NOTE - this does not mean you need to reset your Active Directory Password. If you want to change only your CSE 15L account password, select "No" under change my TritonLink password. Select "Yes" for change course specific password.)
@@ -34,10 +34,10 @@
 Now, we can run some commands to do some basic operations.
 For example, some cool commands are: 
 ```
-- cd
-- ls
-- pwd
-- ls -a
+- cd <directory>: changes directory to the directory mentioned
+- ls: lists all files in current directory
+- ls -a: lists all files (including the hidden files)
+- pwd: prints the current directory you are in
 ```
 A few commands are shown below.
 ![Commands](commands.jpg)
