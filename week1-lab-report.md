@@ -12,7 +12,7 @@
 ## Installing VSCode
 1. Go the Visual Studio Code website [here](https://code.visualstudio.com/).
 2. Click on the **Download** Icon on the top right as shown by the green arrows in the image below.
-![Image](vscode-website.jpeg)
+![Image](vscode-website.jpg)
 3. Select your respective Operating System - MacOS, Linux, or Windows.
 4. There should be a file downloading on your computer. 
 5. Once it has been downloaded, click on it to open it, and follow the instructions as prompted by the installation software.
