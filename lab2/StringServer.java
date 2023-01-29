@@ -9,15 +9,18 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         // if the path has the proper syntax for adding messages to the webpage
-        if (url.getPath().contains("/add-message?s=")) {
-            String[] words = url.getQuery().split("=");
-            for (String word : words) {
-                alreadyEntered = alreadyEntered + "\n" + word;
+        if (url.getPath().contains("/add-message")) {
+            String w[] = url.getQuery().split("=");
+            if (w.length > 0) {
+                for (int i = 1; i < w.length; i++) {
+                    alreadyEntered = alreadyEntered + w[i];
+                }
+                alreadyEntered += "\n";
             }
             return alreadyEntered;
         } 
         else {
-            return "idk bro";
+            return alreadyEntered;
         }
     }
 }
