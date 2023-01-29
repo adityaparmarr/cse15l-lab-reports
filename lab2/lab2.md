@@ -44,6 +44,7 @@ class StringServer {
 ```
 Below, we can see that the code works.
 ![StringServer Screenshot 1](WorkingCodeSS1.jpg)
+![StringServer Screenshot 2](WorkingCodeSS2.jpg)
 The main method is called, which then calls the Server.start method which then calls handleRequest from the StringServer class which ipnuts the URL and handles the Query
 effectively. 
 The relevant argument is the URI type argument which contains all the important details: such as the domain and the query. 
