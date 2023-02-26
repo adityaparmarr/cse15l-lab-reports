@@ -4,6 +4,9 @@
 
 My trick was to have all the shell commands in a text file and copy pasting it into the terminal because I noticed that it automatically parsed the different lines of commands into individual commands, and it bypassed your need to press <Enter>.
 I split it up into sections.
+Note - I made sure it was allowed to do so.
+Here is the screenshot of things I copy-pasted onto google docs (ready to execute the lab tasks as fast as possible)
+![Screenshot of Google Doc with all the commands to be copy pasted](lab7doc.jpg)
 1. First only the `ssh ssh cs15lwi23aja@ieng6.ucsd.edu` command because it was inconsistent if I tried to paste all the other commands with this
 2. Then, the `cd` and the JUnit tests (compiling and running) in one <Ctrl+C> command
 ```
