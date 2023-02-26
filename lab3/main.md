@@ -3,6 +3,11 @@
 ## What is `less`?
 `less` is a command used to display the contents of file or command output, page by page. It can easily help you navigate through the pages - forward and backward through the file.
 
+## Sources Used
+[https://www.man7.org/linux/man-pages/man1/less.1.html](https://www.man7.org/linux/man-pages/man1/less.1.html)
+
+[https://www.howtogeek.com/444233/how-to-use-the-less-command-on-linux/](https://www.howtogeek.com/444233/how-to-use-the-less-command-on-linux/)
+
 ## Notable Differences with Similar Commands
 It has faster load times when compared to `vim` or `nano` - making it the ideal command for reading large files.
 It is similar to `more`, but has more commands similar to `vi` text editor, and supports horizontal scrolling, live monitoring, etc.
