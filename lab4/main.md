@@ -39,7 +39,6 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 ![Step 6](step6.jpg)
 ## Step 7 - Edit the code file to fix the failing test
-
 `# Can't copy paste here, so I used nano, and <Ctrl-W> index1 += and replaced it with index2 using <Backspace>`
 `nano ListEx<Tab>.java`
 <Ctrl-W> index1 +=
@@ -48,22 +47,18 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 <Ctrl-O>
 <Enter>
 <Ctrl-X>
-`# Repeating the same for index1 instead of index2 etc.`
+`# Repeating the same for index1 instead of index2 etc`
 
 ![Step 7](step7.jpg)
 ## Step 8 - Run the tests, demonstrating that they now succeed
-```
 javac List<Tab>.java
 `# Copy paste the JUnit tests as we did earlier`
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 ![Step 8](step8.jpg)
 ## Step 9 - Commit and push the resulting change to your Github account
-```
 `# Copy Paste the git commands from the google doc`
-git add ListExamples.java
-git commit -m “a”
-git push
-```
+`git add ListExamples.java`
+`git commit -m “a”`
+`git push`
 ![Step 9](step9.jpg)
