@@ -37,6 +37,6 @@ For reference, running `less written_2/travel_guides/berlitz1/WhatToIndia.txt` o
 ![Demonstrating the -S option on WhatToIndia.jpg](S.jpg)
 * +G : opens at the end of the file instead of the beginning. In general, + as a modifier runs the following command in less while opening.
 	for example: try running 
-	`less -X written_2/travel_guides/berlitz1/WhatToIndia.txt` and 
-	`less -X written_2/travel_guides/berlitz2/WhatToJapan.txt`
+	`less +G written_2/travel_guides/berlitz1/WhatToIndia.txt` and 
+	`less +G written_2/travel_guides/berlitz2/WhatToJapan.txt`
 ![Demonstrating the +G option for less](G.jpg)
