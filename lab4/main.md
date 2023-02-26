@@ -26,7 +26,6 @@ Note - on my laptop, the <Enter> etc. are different, and the lab computer automa
 ## Step 4 - Log into ieng6
 `# copy paste the command and press <Enter>`
 `ssh ssh cs15lwi23aja@ieng6.ucsd.edu <Enter>`
-![Step 4](step4.jpg)
 ## Step 5 - Clone your fork of the repository from your Github account
 `# copy paste, no need <Enter> `
 `git clone git@github.com:adityaparmarr/lab7.git`
