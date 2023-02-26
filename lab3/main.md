@@ -18,7 +18,7 @@ I will be demonstrating all the examples on the file: written_2/travel_guides/be
 However, I will only include one screenshot per option (one per 2 examples), because the output of less is a new window, and each option behaves similarly regardless of the file. 
 
 For reference, running `less written_2/travel_guides/berlitz1/WhatToIndia.txt` opens the following window.
-![Running the `less` command with no options on WhatToIndia.txt](normal.jpg)
+![Running the `less` command with no options on WhatToIndia.txt](n.jpg)
 
 * -N : displays the line count for every line (as with most code editors like VSCode)
 	for example: try running 
