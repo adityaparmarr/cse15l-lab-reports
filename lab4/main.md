@@ -39,16 +39,15 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 ![Step 6](step6.jpg)
 ## Step 7 - Edit the code file to fix the failing test
-`# Can't copy paste here, so I used nano, and <Ctrl-W> index1 += and replaced it with index2 using <Backspace>`
-`nano ListEx<Tab>.java`
-<Ctrl-W> index1 +=
-<Backspaces>
-<Type>index2
-<Ctrl-O>
-<Enter>
-<Ctrl-X>
-`# Repeating the same for index1 instead of index2 etc`
-
+`# Can't copy paste here, so I used nano, and <Ctrl-W> index1 += and replaced it with index2 using <Backspace>` </b>
+`nano ListEx<Tab>.java`</b>
+`<Ctrl-W> index1 +=` </b>
+`<Backspaces>` </b>
+`<Type>index2` </b>
+`<Ctrl-O>` </b>
+`<Enter>` </b>
+`<Ctrl-X>` </b>
+`# Repeating the same for index1 instead of index2 etc` </b>
 ![Step 7](step7.jpg)
 ## Step 8 - Run the tests, demonstrating that they now succeed
 `javac List<Tab>.java`
