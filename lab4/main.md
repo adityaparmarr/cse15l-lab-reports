@@ -18,7 +18,7 @@ Here is the screenshot of things I copy-pasted onto google docs (ready to execut
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
   java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExampleTests
 ```
-3. Then I nano'd into ListExamples.java (using `<Tab>`s along the way to speed it up)
+3. Then I nano'd into ListExamples.java (using `<Tab>`s along the way to speed it up) as desribed using the keystrokes later in this document.
 4. Then I used the <Ctrl+W> (where is) command to find the wrong `index1 +=` and replaced it with `index2 +=` using <Backspace>
 5. Lastly, I copy-pasted all the git repository related steps (add, commit, and push)
 ```
