@@ -59,9 +59,8 @@ Can't copy paste here, so I used nano.
 ```
 ![Step 7](step7.jpg)
 ## Step 8 - Run the tests, demonstrating that they now succeed
-`javac List<Tab>.java`
-
 ```
+  javac List<Tab>.java
   # Copy paste the JUnit tests as we did earlier
   # Keystrokes - <Ctrl-V><Enter>
   javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
